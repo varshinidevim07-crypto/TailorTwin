@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Firebase private key
+firebase_key.json
+
+# Environment variables
+.env
+
+# Generated PDF files
+*.pdf
