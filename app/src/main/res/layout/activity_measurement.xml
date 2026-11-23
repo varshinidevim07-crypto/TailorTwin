@@ -1,0 +1,83 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F5FC"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Measurements"
+            android:textColor="#8E44AD"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/tvSelectedGarment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected garment"
+            android:textColor="#555555"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etChest"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Chest / Bust (inches)"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:backgroundTint="#8E44AD"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etWaist"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Waist (inches)"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:backgroundTint="#8E44AD"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etHip"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Hip (inches)"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:backgroundTint="#8E44AD"
+            android:layout_marginBottom="16dp"/>
+
+        <EditText
+            android:id="@+id/etLength"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Garment Length (inches)"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:backgroundTint="#8E44AD"
+            android:layout_marginBottom="25dp"/>
+
+        <Button
+            android:id="@+id/btnGeneratePattern"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="GENERATE PATTERN"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:backgroundTint="#8E44AD"/>
+
+    </LinearLayout>
+</ScrollView>
